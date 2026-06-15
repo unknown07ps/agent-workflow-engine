@@ -1,4 +1,4 @@
-# Vulcan — Multi-Agent Workflow Engine
+# Vulcan : Multi-Agent Workflow Engine
 
 Specialized agents (**Planner → Researcher → Formatter → Critic**) collaborate via a
 [LangGraph](https://langchain-ai.github.io/langgraph/) state machine to generate
