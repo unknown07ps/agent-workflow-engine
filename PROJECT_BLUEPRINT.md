@@ -1,4 +1,4 @@
-# Multi-Agent Workflow Engine — Project Blueprint
+# Vulcan — Multi-Agent Workflow Engine: Project Blueprint
 
 This document is a complete onboarding guide for an engineer who has never seen
 this codebase. It explains what the project does, how it's structured, how

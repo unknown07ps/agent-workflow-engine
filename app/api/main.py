@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 app = FastAPI(
-    title="Multi-Agent Workflow Engine",
+    title="Vulcan — Multi-Agent Workflow Engine",
     description=(
         "Specialized agents (Planner, Researcher, Critic, Formatter) "
         "collaborate via a LangGraph state machine to complete tasks "
@@ -31,7 +31,7 @@ app.include_router(router)
 @app.get("/", tags=["meta"])
 def root() -> dict:
     return {
-        "name": "Multi-Agent Workflow Engine",
+        "name": "Vulcan — Multi-Agent Workflow Engine",
         "docs": "/docs",
         "health": "/health",
     }
