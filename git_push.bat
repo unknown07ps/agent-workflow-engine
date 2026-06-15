@@ -2,7 +2,7 @@
 REM Initializes git repo (if needed), commits current stage, and pushes to GitHub.
 REM
 REM Usage:
-REM   git_push.bat "Stage 1: scaffolding" https://github.com/unknown07ps/agent-workflow-engine.git
+REM   git_push.bat "Stage 1: scaffolding" https://github.com/<you>/<repo>.git
 REM
 REM First run: git init, set branch to main, add remote, commit, push.
 REM Later runs: git_push.bat "Stage 2: ..."   (remote already set, arg optional)
